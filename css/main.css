@@ -1,0 +1,33 @@
+html {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: none;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1rem;
+  text-decoration: none;
+  font: normal 100%/1.5 Crimson;
+  line-height: 1.3;
+}
+
+* {
+  color: #555;
+}
+
+h1 {
+  font-family: crimson;
+  font-size: 1.5rem;
+  font-style: normal;
+  color: #222;
+}
+
+header > p {
+  font-style: italic;
+  font-size: 1.125rem;
+  line-height: 1.3;
+}
+
+span {
+color: #999;
+}
