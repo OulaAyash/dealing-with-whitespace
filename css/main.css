@@ -1,33 +1,41 @@
 html {
+  box-sizing: border-box;
+}
+
+body {
   margin-left: 1rem;
   margin-right: 1rem;
-  margin-top: none;
   margin-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
   border: 1rem;
   text-decoration: none;
-  font: normal 100%/1.5 Crimson;
+  font: normal 100%/1.5 "Crimson Text";
   line-height: 1.3;
+  font-size: 1em;
 }
 
 * {
-  color: #555;
+  box-sizing: inherit;
+  color: #222;
 }
 
-h1 {
-  font-family: crimson;
+article h1 {
+  font-family: "crimson Text";
   font-size: 1.5rem;
   font-style: normal;
   color: #222;
 }
 
-header > p {
+article header p {
   font-style: italic;
   font-size: 1.125rem;
   line-height: 1.3;
+  font-weight: normal;
+  color: #555;
 }
 
-span {
-color: #999;
+blockquote > p {
+  color: #999;
+  font-size: 1em;
 }
